@@ -1,6 +1,8 @@
 #include<stdio.h>
 int main()
 {
-	int x = 10 + 20;
-  printf("Vinay M R\n");
+	int num;
+	scanf("%d",&num);
+	int square = num * num;
+  	printf("Square of the given number %d is %d\n",num,square);
 }
